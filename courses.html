@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+    <title>
+        Courses|VSIT University
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/765050f023.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <!--navigation bar -->
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+        <h1>
+            Our Courses
+        </h1>
+    </section>
+    <!------------------About Us content---------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere veritatis possimus quidem ullam adipisci delectus.
+                    Maxime nulla illum blanditiis quas vel,
+                    porro laboriosam corrupti totam aliquid error inventore
+                    quod facere doloribus placeat at aut.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere veritatis possimus quidem ullam adipisci delectus.
+                    Maxime nulla illum blanditiis quas vel,
+                    porro laboriosam corrupti totam aliquid error inventore
+                    quod facere doloribus placeat at aut.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Facere veritatis possimus quidem ullam adipisci delectus.
+                    Maxime nulla illum blanditiis quas vel,
+                    porro laboriosam corrupti totam aliquid error inventore
+                    quod facere doloribus placeat at aut.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------------------------facilities------------------------------>
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Vidyalankar offers a wide spectrum of co-curricular, extracurricular, and athletic opportunities in addition to academics, which stands on the pillars of many Student Clubs and Student Councils. The synaesthesia of sports, culture, literary and technical forums at VSIT harness the creative potential of students keeping in view the tastes of the Millennial Generation that shall equip the students as successful professionals and future global leaders. </p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>The Central Library is the indispensable hub of discovery, learning and creativity by providing a
+                        distinguished collection of information resources unbounded by place and preserved for future generations.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/basketball.png">
+                        <h3>Largest Playground</h3>
+                        <p>The importance of sports in the academic calendar is in recognition of its role towards effective teaching of how to conduct oneself with honesty and integrity, strive for excellence and compete with dignity and pride while upholding the sportsman spirit</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/cafeteria.png">
+                            <h3>Tasty and Healthy Food</h3>
+                            <p>The vibrant food outlets of the campus ensure nobody is deprived
+                                 of fulfilling one's varying taste bud requirements during the leisure time.</p>
+                        </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------Footer--------------------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Vidyalankar School of Information Technology is amongst the most popular colleges of the city <br>
+            offering undergraduate, postgraduate and doctoral programmes in IT, Commerce, Management and Mass Media. Vidyalankar School of Information Technology is a college affiliated to the University of Mumbai and approved by the Government of Maharashtra.
+</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/Vidyalankar.VSIT/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/VidyalankarT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/vsitinsta/?hl=en" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://in.linkedin.com/company/vidyalankar-school-of-information-technology" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </section>
+    <!--javascript for toggle Menu-->
+    <script language="javascript">
+        var navLinks = document.getElementById("navLinks")
+        function show() {
+            navLinks.style.right = "0";
+        }
+        function hide() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
